@@ -2,7 +2,7 @@
 
 For this project, I used a Spark Cluster on AWS EMR for loading and running some analysis on Yelp’s Reviews and Businesses dataset (about 10gb) from Kaggle. I run my analysis via Jupyter Notebook and the expected output artifact is Analysis.ipynb file.
 
-**Technology used**
+**Technology used**<br>
 Python (Spark SQL)
 
 
