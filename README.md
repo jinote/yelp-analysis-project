@@ -1,7 +1,9 @@
 # Analyzing 10Gb of Yelp Reviews Data
 
-For this project, I used a Spark Cluster on AWS EMR for loading and running some analysis on Yelp’s Reviews and Businesses dataset (about 10gb) from Kaggle. (https://user-images.githubusercontent.com/62555770/166127012-cae08770-4a4a-40e4-b6a4-759de01a5c3d)
+For this project, I used a Spark Cluster on AWS EMR for loading and running some analysis on Yelp’s Reviews and Businesses dataset (about 10gb) from Kaggle.
 
+**Dataset**<br>
+Yelp Dataset link: https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset
 
 **Technology used**<br>
 - Programming Language: Python (Spark SQL)
@@ -17,7 +19,7 @@ For this project, I used a Spark Cluster on AWS EMR for loading and running some
 ## **S3 Bucket**
 ![Alt text](https://github.com/jinote/yelp-analysis-project/blob/main/cis9760-yelpbucket.jpg)
 
-**Steps in Jypter Notebook**
+**Steps**<br>
 **Part I: Installation and Initial Setup**<br>
 In this portion, I imported the necessary dependencies (pandas and matplotlib, seaborn is optional) and loaded the dataset as a pyspark dataframe.
 
