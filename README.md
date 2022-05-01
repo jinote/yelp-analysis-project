@@ -1,18 +1,23 @@
 # Analyzing 10Gb of Yelp Reviews Data
 
-For this project, I used a Spark Cluster on AWS EMR for loading and running some analysis on Yelp’s Reviews and Businesses dataset (about 10gb) from Kaggle. 
+For this project, I used a Spark Cluster on AWS EMR for loading and running some analysis on Yelp’s Reviews and Businesses dataset (about 10gb) from Kaggle. (https://user-images.githubusercontent.com/62555770/166127012-cae08770-4a4a-40e4-b6a4-759de01a5c3d)
+
 
 **Technology used**<br>
 - Programming Language: Python (Spark SQL)
 - Service: EMR, S3, Jupyter Notebook
 
 
-**Cluster Configuration**
+## Cluster Configuration
 ![Alt text](https://github.com/jinote/yelp-analysis-project/blob/main/cis9760-yelpcluster.jpg)
 
-**Notebook Configuration**
+## **Notebook Configuration**
 ![Alt text](https://github.com/jinote/yelp-analysis-project/blob/main/cis9760-yelpnotebook.jpg)
 
+## **S3 Bucket**
+![Alt text](https://github.com/jinote/yelp-analysis-project/blob/main/cis9760-yelpbucket.jpg)
+
+**Steps in Jypter Notebook**
 **Part I: Installation and Initial Setup**<br>
 In this portion, I imported the necessary dependencies (pandas and matplotlib, seaborn is optional) and loaded the dataset as a pyspark dataframe.
 
@@ -24,5 +29,3 @@ For this next part, I attempted to answer the question: are the (written) review
 
 **Part IV: Should the Elite be Trusted?**<br> 
 For this final part I explored the data and calculated the difference bewteen business actual ratings and elite users' ratings. 
--	I leveraged the users dataset provided
--	I crated one visualization 
