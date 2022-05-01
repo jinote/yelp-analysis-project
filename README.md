@@ -1,9 +1,10 @@
 # Analyzing 10Gb of Yelp Reviews Data
 
-For this project, I used a Spark Cluster on AWS EMR for loading and running some analysis on Yelp’s Reviews and Businesses dataset (about 10gb) from Kaggle. I run my analysis via Jupyter Notebook and the expected output artifact is Analysis.ipynb file.
+For this project, I used a Spark Cluster on AWS EMR for loading and running some analysis on Yelp’s Reviews and Businesses dataset (about 10gb) from Kaggle. 
 
 **Technology used**<br>
-Python (Spark SQL)
+- Programming Language: Python (Spark SQL)
+- Service: EMR, S3, Jupyter Notebook
 
 
 **Cluster Configuration**
